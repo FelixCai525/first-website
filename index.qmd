@@ -4,7 +4,7 @@ title: "first-website"
 
 ```{r}
 #| output: false
-#| #| echo: false
+#| echo: false
 library(tidyverse)
 library(ggthemes)
 ```

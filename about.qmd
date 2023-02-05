@@ -2,8 +2,19 @@
 title: "About"
 ---
 
-About this site
+## About Me
+My name is **Felix Cai**, I'm a TF for Kane's Data Science Bootcamp.
 
-```{r}
-1 + 1
-```
+## About the Project
+This is *test*, a project for the Quarto Websites tutorial.
+
+### Goals
+- Learn about Quarto websites
+  + Finish the tutorial
+- Make a nice test website
+
+"This is data science."
+\
+~ Preceptor
+
+[Kane's Free High School Data Science Bootcamp](https://bootcamp.davidkane.info)

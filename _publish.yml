@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 890f79a6-941c-4c1b-8fe7-12cb567a0665
+      url: 'https://quartopub.com/sites/felixcai525/first-website'
