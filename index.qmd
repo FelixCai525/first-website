@@ -13,16 +13,17 @@ library(ggthemes)
 #| echo: false
 #| label: car-plot
 
-mtcars %>% 
-select(mpg, wt) %>%
-    ggplot(aes(wt, mpg)) +
-    geom_point() +
-    geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
-    theme_clean() +
-    labs(title = "Fuel Efficiency and Weight",
-         subtitle = "Heavier cars are less fuel efficient",
-         x = "Weight (1000s of lbs)",
-         y = "MPG",
-         caption = "Henderson and Vellerman (1981)")
+car_plot <- read_rds(file = "car-plot.rds")
+car_plot
+ggsave("car-plot.png", plot = car_plot)
 ```
+
+```{r}
+#| label: image
+library(knitr)
+include_graphics("images/car-plot.png")
+# This image is made from code in an R script file that made a .rds which was then turned into a .png.
+
+```
+
 
